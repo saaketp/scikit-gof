@@ -8,7 +8,8 @@ meta = {
     'packages': ('skgof',),
     'install_requires': (
         'numpy>=1.10',
-        'scipy>=0.16'
+        'scipy>=0.16',
+        'six>=1.0.0'
     ),
     'tests_require': (
         'flake8-print',

@@ -38,7 +38,7 @@ from collections import namedtuple
 from functools import partial
 
 from numpy import arange, log, sort
-from scipy._lib.six import string_types
+from six import string_types
 from scipy.stats import distributions
 
 from .addist import ad_unif
